@@ -5,8 +5,7 @@
 
 ## Traffic Chain
 ![](https://i.imgur.com/5IY1ZC7.png)  
-<center>(EKFiddleによる色付け結果)</center>
-
+↑EKFiddleによる色付け結果
 
 Queryn Campaignによって発生する一連のトラフィックを紹介します。まずユーザは改ざんされたWebサイト（以下、Compromisedサイト）にアクセスします。Compromisedサイトには以下のようなHTMLコードが書き足されており、それによって `query.network` というサーバにある `jquery` をJavaScriptとして読み込みます。
 
