@@ -1,7 +1,7 @@
 # Deep Analysis of Queryn Campaign
 私達は2018年初旬頃から、Webサイトを改ざんして悪性コンテンツを配信する攻撃キャンペーンを観測してきました。この攻撃キャンペーンは一般のWebサイトに数行のHTMLコードを書き足します。改ざんされたWebサイトへアクセスしたユーザは、書き足されたコードによって悪性コンテンツを読み込み、ソーシャルエンジニアリングによってマルウェアをダウンロード・実行してしまいます。私達はこの攻撃キャンペーンを、その特徴から"Queryn Campaign"と呼んで識別しています。
 
-私達がこの攻撃キャンペーンについて全ての解析が終わった後、得られたIOC情報をもとに追加情報を検索したところ、FireEyeによって書かれた"[Fake Software Update Abuses NetSupport Remote Access Tool](https://www.fireeye.com/blog/threat-research/2018/04/fake-software-update-abuses-netsupport-remote-access-tool.html)"というレポートを発見しました。私達がQuerynと呼んでいる攻撃キャンペーンの後半のトラフィック（JSが降ってきてからの話）を扱っており、それらの情報はほぼ重複しています。FireEyeのレポートはこのレポートを書く1ヶ月ほど前のものなので、多少サーバの情報等は変化していますし、Compromisedサイトから攻撃サイトまでのトラフィックなどをあまり紹介しておらず、何より日本語の資料は存在しなかったためこのレポートを公開しますが、詳細な情報が欲しい場合はFireEyeのレポートを参照することをオススメします。
+私達がこの攻撃キャンペーンについて全ての解析が終わった後、得られたIOCをもとに追加情報を検索したところ、FireEyeによって書かれた"[Fake Software Update Abuses NetSupport Remote Access Tool](https://www.fireeye.com/blog/threat-research/2018/04/fake-software-update-abuses-netsupport-remote-access-tool.html)"というレポートを発見しました。私達がQuerynと呼んでいる攻撃キャンペーンの後半のトラフィック（JSが降ってきてからの話）を扱っており、それらの情報はほぼ重複しています。FireEyeのレポートはこのレポートを書く1ヶ月ほど前のものなので、多少サーバの情報等は変化していますし、Compromisedサイトから攻撃サイトまでのトラフィックなどをあまり紹介しておらず、何より日本語の資料は存在しなかったためこのレポートを公開しますが、詳細な情報が欲しい場合はFireEyeのレポートを参照することをオススメします。
 
 ## Traffic Chain
 ![](https://i.imgur.com/5IY1ZC7.png)  
