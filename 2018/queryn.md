@@ -1010,6 +1010,7 @@ query[.]network	45.32.52.31
 boobahbaby[.]com	45.32.52.31
 track[.]amishbrand[.]com	185.244.149.74
 mean[.]nitrpindia[.]com	93.95.100.178
+snax[.]saradiecasting[.]com	93.95.100.178
 
 <C2>
 [a-z0-9]{8}.intro2[.]biox-shop[.]com	5.104.226.126
