@@ -1019,5 +1019,5 @@ four[.]sineadhollywoodnutt[.]com 93.95.100.178
 [0-9a-f]{8}.phpmyadmin[.]greentechsupply[.]us   185.52.3.248
 91.243.80.83
 136.243.158.225
-desjardinscourriel818654[.]pw   95.215.108.165
+desjardinscourriel818654[.]pw   95.215.108.165, 93.179.68.25, 185.224.249.151
 ```
